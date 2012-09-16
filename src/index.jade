@@ -1,0 +1,48 @@
+!!! 5
+
+html(lang='zh-TW')
+  head
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Droid+Serif:700')
+    link(rel='stylesheet', href='css/index.css')
+    title 台灣溜溜球聯盟官方網站
+  body
+    div.
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=236955576406422";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    .container
+      .hero-unit
+        h1.alert-heading [Error 404] Oops! 阿娘喂!
+        br
+        h3 There is no such an organization
+        h3 目前這個組織不存在
+        h3 そんな組織は存在しません
+      .alert
+        strong Warning!
+        |  For more information, CONTACT them!
+      ul.thumbnails
+        li.span2
+          a.thumbnail(href='https://www.facebook.com/james.liao.73', target='_blank')
+            img(src='img/james.png')
+        li.span2
+          a.thumbnail(href='https://www.facebook.com/jasonfoxracing', target='_blank')
+            img(src='img/jason.png')
+        li.span2
+          a.thumbnail(href='https://www.facebook.com/kuopohan', target='_blank')
+            img(src='img/harry.png')
+        li.span2
+          a.thumbnail(href='https://www.facebook.com/linkai.huang', target='_blank')
+            img(src='img/kai.png')
+        li.span2
+          a.thumbnail(href='https://www.facebook.com/moyostage', target='_blank')
+            img(src='img/moyo.png')
+      .fb-like(data-href='http://www.twyf.org/', data-send='false', data-width='480', data-show-faces='true')
+        
+

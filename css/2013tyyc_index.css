@@ -1,0 +1,36 @@
+.navbar {
+  margin-top: 15px;
+}
+.brand {
+  font-family: 'Lobster', cursive;
+}
+.hero-unit {
+  background-image: url("/img/2013tyyc_cover.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 540px;
+}
+blockquote {
+  position: relative;
+  left: 42%;
+  top: 60%;
+}
+blockquote small {
+  color: #fff;
+}
+blockquote h3 {
+  color: #fff;
+}
+body .container {
+  padding-bottom: 150px;
+}
+footer {
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.2);
+  box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.2);
+  background: #ececec;
+  height: 150px;
+}
+footer .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
