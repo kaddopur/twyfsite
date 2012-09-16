@@ -32,5 +32,6 @@ class TYYC2013Handler(webapp2.RequestHandler):
     template = jinja_environment.get_template('2013tyyc_index.html')
     self.response.out.write(template.render(template_values))
 
-app = webapp2.WSGIApplication([('/2013tyyc', TYYC2013Handler)],
+app = webapp2.WSGIApplication([('/', TYYC2013Handler),
+                               ('/2013tyyc', TYYC2013Handler)],
                               debug=True)
