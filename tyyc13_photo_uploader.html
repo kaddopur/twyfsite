@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <title>TYYC13 - Photo</title>
+    <meta charset="UTF-8">
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/tyyc13_photo_uploader.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="/js/tyyc13_photo_uploader.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="grid" class="column"></div>
+      <div id="display" class="column">display</div>
+      <div id="contrrl" class="column">
+        <form action="/tyyc13/photo/upload" enctype="multipart/form-data" method="post">
+          <input type="file" name="files" multiple>
+          <button type="submit" class="btn">提交</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
